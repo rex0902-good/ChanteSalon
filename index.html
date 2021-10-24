@@ -10,13 +10,17 @@
 <script>
 window.onload = function (){
     var company =   document.querySelector("#company");
+    var backCompany =   document.querySelector("#backCompany");
     document.querySelector("#Cypsbutton").onclick = function (){
         if(document.querySelector("#CypsDesigner").getAttribute("class") == "displayBlcok"){
             document.querySelector("#CypsDesigner").setAttribute("class","");
             company.setAttribute("class","");
+            backCompany.setAttribute("class","");
+            backCompany.setAttribute("class","");
         }else{
             document.querySelector("#CypsDesigner").setAttribute("class","displayBlcok");
             company.setAttribute("class","displaynone");
+            backCompany.setAttribute("class","displayBlcok");
         }; 
     };
     document.querySelector("#Jmesbutton").onclick = function (){
@@ -27,7 +31,17 @@ window.onload = function (){
         }else{
             JmesDesigner.setAttribute("class","displayBlcok");
             company.setAttribute("class","displaynone");
+            backCompany.setAttribute("class","displayBlcok");
         }; 
+    };
+    backCompany.onclick = function (){
+        var JmesDesigner = document.querySelector("#JmesDesigner");
+        if(company.getAttribute("class") == "displaynone"){
+            JmesDesigner.setAttribute("class","");
+            document.querySelector("#CypsDesigner").setAttribute("class","");
+            company.setAttribute("class","");
+        }
+        
     };
 };
 </script>
@@ -39,11 +53,10 @@ window.onload = function (){
                 <span>重陽館-設計團隊</span>
             </span>
             <span class="text">
-                <span>自然捲救星</span>
-                <span>客製化髮型</span>
+  
             </span>
             <span class="infomation">
-                讓你成為無死角的小仙女
+   
             </span>
             <span class="Portfolio">
                 <a href="https://goo.gl/maps/MfefVvuB1RfcWtUVA">新北市三重區重陽路一段63號</a>
@@ -57,11 +70,10 @@ window.onload = function (){
                 <span>集美館-設計團隊</span>
             </span>
             <span class="text">
-                <span>自然捲救星</span>
-                <span>客製化髮型</span>
+  
             </span>
             <span class="infomation">
-                讓你成為無死角的小仙女
+           
             </span>
             <span class="Portfolio">
                 <a href="https://goo.gl/maps/GDZucBETVFWwttTk6">新北市三重區集美街210-2號</a>
@@ -93,6 +105,7 @@ window.onload = function (){
         </span>
     </span>
 </span>
+<span id="backCompany">回到公司頁</span>
 
 </body>
 

@@ -94,3 +94,16 @@ body{
         border: 1px solid #7566f4;
         border-radius: 5px;
     }
+
+    #backCompany{
+        display:none;
+        text-align: center;
+        background: #fff;
+        width: 130px;
+        padding: 5px 20px;
+        margin: 41px auto;
+        border-radius: 5px;
+        border: 1 px solid #7566f4;
+        color: #7566f4;
+        font-weight: bold;
+    }
