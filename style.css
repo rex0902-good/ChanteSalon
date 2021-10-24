@@ -71,7 +71,6 @@ body{
     } 
     #CypsDesigner,
     #JmesDesigner{
-        display: none;
         display: block;
         height: auto;
         width: 724px;
