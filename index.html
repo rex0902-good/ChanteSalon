@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<script>
+window.onload = function (){
+    var company =   document.querySelector("#company");
+    document.querySelector("#Cypsbutton").onclick = function (){
+        if(document.querySelector("#CypsDesigner").getAttribute("class") == "displayBlcok"){
+            document.querySelector("#CypsDesigner").setAttribute("class","");
+            company.setAttribute("class","");
+        }else{
+            document.querySelector("#CypsDesigner").setAttribute("class","displayBlcok");
+            company.setAttribute("class","displaynone");
+        }; 
+    };
+    document.querySelector("#Jmesbutton").onclick = function (){
+        var JmesDesigner = document.querySelector("#JmesDesigner");
+        if(JmesDesigner.getAttribute("class") == "displayBlcok"){
+            JmesDesigner.setAttribute("class","");
+            company.setAttribute("class","");
+        }else{
+            JmesDesigner.setAttribute("class","displayBlcok");
+            company.setAttribute("class","displaynone");
+        }; 
+    };
+};
+</script>
+<body>
+    <span id="company" class="">
+        <span id="Cyps" class="outline">
+            <span class="img">
+                <span></span>
+                <span>重陽館-設計團隊</span>
+            </span>
+            <span class="text">
+                <span>自然捲救星</span>
+                <span>客製化髮型</span>
+            </span>
+            <span class="infomation">
+                讓你成為無死角的小仙女
+            </span>
+            <span class="Portfolio">
+                <a href="https://goo.gl/maps/MfefVvuB1RfcWtUVA">新北市三重區重陽路一段63號</a>
+                <span>營業時間 <br>周一至周五 11:00-7:30 <br> 周日 11:00-6:00</span>
+                <span id="Cypsbutton">團隊介紹</span>
+            </span>
+        </span>
+        <span id="Jmes" class="outline">
+            <span class="img">
+                <span></span>
+                <span>集美館-設計團隊</span>
+            </span>
+            <span class="text">
+                <span>自然捲救星</span>
+                <span>客製化髮型</span>
+            </span>
+            <span class="infomation">
+                讓你成為無死角的小仙女
+            </span>
+            <span class="Portfolio">
+                <a href="https://goo.gl/maps/GDZucBETVFWwttTk6">新北市三重區集美街210-2號</a>
+                <span>營業時間 <br>周一至周五 11:00-7:30<br> 周日公休</span>
+                <span id="Jmesbutton">團隊介紹</span>
+            </span>
+        </span>
+    </span>
+
+<span id="CypsDesigner" class="" >
+    <span id="ML" class="outline">
+        <span class="img">
+            <span></span>
+            <span>美蘭ML</span>
+        </span>
+        <span class="text">
+            <span>自然捲救星</span>
+            <span>客製化髮型</span>
+        </span>
+        <span class="infomation">
+            讓你成為無死角的小仙女
+        </span>
+        <span class="Portfolio">
+            <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=esf0540h">美蘭ML專屬LINE諮詢</a>
+            <a href="https://www.instagram.com/chante_ml/">美蘭ML最新美髮作品集</a>
+        </span>
+    </span>
+</span>
+<span id="JmesDesigner" class="" >
+    <span id="ML" class="outline">
+        <span class="img">
+            <span></span>
+            <span>美蘭ML</span>
+        </span>
+        <span class="text">
+            <span>自然捲救星</span>
+            <span>客製化髮型</span>
+        </span>
+        <span class="infomation">
+            讓你成為無死角的小仙女
+        </span>
+        <span class="Portfolio">
+            <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=esf0540h">美蘭ML專屬LINE諮詢</a>
+            <a href="https://www.instagram.com/chante_ml/">美蘭ML最新美髮作品集</a>
+        </span>
+    </span>
+</span>
+
+</body>
+
+</html>

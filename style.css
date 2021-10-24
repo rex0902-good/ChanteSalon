@@ -1,0 +1,97 @@
+body{
+    background: #272727;
+}
+#company{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.outline{
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    background: #fff;
+    border-radius: 5px;
+    height: auto;
+    padding: 10px 40px;
+    width: 271px;
+    border: 1px solid #000;
+}
+
+.img{
+    display:block;
+}
+.img > span{
+    margin: 18px 0;
+    width: 100%;
+    font-size: 26px;
+    font-weight: bold;
+    color: #323232;
+    display: block;
+}
+.text > span{
+    display:block;
+    border: 1px solid #adadad;
+    border-radius: 20px;
+    color: #717171;
+    margin: 13px 0;
+}
+.Portfolio > a{
+    display: block;
+    margin: 5px;
+    text-decoration: none;
+    color: #7566f4;
+    font-weight: bold;
+    }
+
+    #ML > .img > span:nth-of-type(1) {
+        background: url(image/ML.jpg) no-repeat;
+        background-size:  cover;
+        height: 265px;
+        display: block;
+        border-radius: 50%;
+        width: 100%;
+    }    
+    #Cyps > .img > span:nth-of-type(1) {
+        background: url(image/Cyps.jpg) no-repeat;
+        background-size:  cover;
+        height: 265px;
+        display: block;
+        border-radius: 50%;
+        width: 100%;
+    }
+    #Jmes > .img > span:nth-of-type(1) {
+        background: url(image/Jmes.jpg) no-repeat;
+        background-size:  cover;
+        height: 265px;
+        display: block;
+        border-radius: 50%;
+        width: 100%;
+    } 
+    #CypsDesigner,
+    #JmesDesigner{
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .displayBlcok{
+        display: block!important;
+    }
+    .displaynone{
+        display: none!important;
+    }
+    #Cypsbutton,
+    #Jmesbutton{
+        display: block;
+        color: #7566f4;
+        font-weight: bold;
+        padding: 5px;
+        margin: 17px 27px;
+        cursor: pointer;
+        border: 1px solid #7566f4;
+        border-radius: 5px;
+    }
