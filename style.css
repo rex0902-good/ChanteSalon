@@ -78,7 +78,7 @@ body{
     #JmesDesigner{
         display: none;
         height: auto;
-        width: 724px;
+        /* width: 724px; */
         margin: 0 auto;
     }
 
