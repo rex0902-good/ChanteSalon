@@ -17,10 +17,14 @@ window.onload = function (){
             company.setAttribute("class","");
             backCompany.setAttribute("class","");
             backCompany.setAttribute("class","");
+            window.scrollTo(0,0);
+            window.scrollLeft(0,0);
         }else{
             document.querySelector("#CypsDesigner").setAttribute("class","displayBlcok");
             company.setAttribute("class","displaynone");
             backCompany.setAttribute("class","displayBlcok");
+            window.scrollTo(0,0);
+            window.scrollLeft(0,0);
         }; 
     };
     document.querySelector("#Jmesbutton").onclick = function (){
@@ -28,10 +32,14 @@ window.onload = function (){
         if(JmesDesigner.getAttribute("class") == "displayBlcok"){
             JmesDesigner.setAttribute("class","");
             company.setAttribute("class","");
+            window.scrollTo(0,0);
+            window.scrollLeft(0,0);
         }else{
             JmesDesigner.setAttribute("class","displayBlcok");
             company.setAttribute("class","displaynone");
             backCompany.setAttribute("class","displayBlcok");
+            window.scrollTo(0,0);
+            window.scrollLeft(0,0);
         }; 
     };
     backCompany.onclick = function (){
@@ -41,6 +49,8 @@ window.onload = function (){
             document.querySelector("#CypsDesigner").setAttribute("class","");
             company.setAttribute("class","");
             backCompany.setAttribute("class","");
+            window.scrollTo(0,0);
+            window.scrollLeft(0,0);
         }
         
     };
