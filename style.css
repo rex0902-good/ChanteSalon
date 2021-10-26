@@ -43,6 +43,11 @@ body{
     color: #717171;
     margin: 13px 0;
 }
+
+.infomation{
+    height: 80px;
+    display: block;
+}
 .Portfolio > a{
     display: block;
     margin: 5px;
