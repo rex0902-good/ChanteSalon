@@ -56,7 +56,41 @@ body{
         display: block;
         border-radius: 50%;
         width: 100%;
+    }
+    
+    #Ivy > .img > span:nth-of-type(1) {
+        background: url(image/Ivy.jpg) no-repeat;
+        background-size:  cover;
+        height: 265px;
+        display: block;
+        border-radius: 50%;
+        width: 100%;
     }    
+
+    #Libya > .img > span:nth-of-type(1) {
+        background: url(image/Libya.jpg) no-repeat;
+        background-size:  cover;
+        height: 265px;
+        display: block;
+        border-radius: 50%;
+        width: 100%;
+    } 
+    #Amanda > .img > span:nth-of-type(1) {
+        background: url(image/Amanda.jpg) no-repeat;
+        background-size:  cover;
+        height: 265px;
+        display: block;
+        border-radius: 50%;
+        width: 100%;
+    } 
+    #vivi > .img > span:nth-of-type(1) {
+        background: url(image/vivi.jpg) no-repeat;
+        background-size:  cover;
+        height: 265px;
+        display: block;
+        border-radius: 50%;
+        width: 100%;
+    } 
     #Cyps > .img > span:nth-of-type(1) {
         background: url(image/Cyps.jpg) no-repeat;
         background-size:  cover;
