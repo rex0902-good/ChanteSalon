@@ -21,7 +21,8 @@ body{
     border-radius: 5px;
     margin: 5px;
     height: 622px;
-    min-width: auto;
+    min-width: 262px;
+    max-width: 262px;
     padding: 10px 40px;
     width: 262px;
     border: 1px solid #000;
