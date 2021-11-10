@@ -21,7 +21,7 @@ body{
     border-radius: 5px;
     margin: 5px;
     height: 600px;
-    min-width: 277px;
+    min-width: auto;
     padding: 10px 40px;
     width: 277px;
     border: 1px solid #000;
@@ -140,7 +140,7 @@ body{
     }
 
     .displayBlcok{
-        display: flex!important;
+        display: inline-flex!important;
     }
     .displaynone{
         display: none!important;
