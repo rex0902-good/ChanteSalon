@@ -20,7 +20,7 @@ body{
     background: #fff;
     border-radius: 5px;
     margin: 5px;
-    height: 600px;
+    height: 622px;
     min-width: auto;
     padding: 10px 40px;
     width: 262px;
@@ -163,6 +163,7 @@ body{
         background: #fff;
         width: 130px;
         cursor: pointer;
+        justify-content: center;
         padding: 5px 20px;
         margin: 41px auto;
         border-radius: 5px;
