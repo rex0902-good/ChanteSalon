@@ -132,6 +132,14 @@ body{
         border-radius: 50%;
         width: 100%;
     } 
+    #Bella > .img > span:nth-of-type(1) {
+        background: url(image/Bella.jpg) no-repeat;
+        background-size:  cover;
+        height: 265px;
+        display: block;
+        border-radius: 50%;
+        width: 100%;
+    } 
     #CypsDesigner,
     #JmesDesigner{
         display: none;
@@ -174,3 +182,20 @@ body{
     }
 
     #content > div{text-align: center;}
+
+
+    /***/
+
+
+    .owl-item > div {
+        cursor: pointer;
+        margin: 6% 8%;
+        transition: margin 0.4s ease;
+      }
+      .owl-item.center > div {
+        cursor: auto;
+        margin: 0;
+      }
+      .owl-item:not(.center) > div:hover {
+        opacity: .75;
+      }
