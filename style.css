@@ -116,6 +116,14 @@ body{
         border-radius: 50%;
         width: 100%;
     } 
+    #Bella > .img > span:nth-of-type(1) {
+        background: url(image/Bella.jpg) no-repeat;
+        background-size:  cover;
+        height: 265px;
+        display: block;
+        border-radius: 50%;
+        width: 100%;
+    } 
     #Cyps > .img > span:nth-of-type(1) {
         background: url(image/Cyps.jpg) no-repeat;
         background-size:  cover;
